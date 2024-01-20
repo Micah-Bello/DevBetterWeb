@@ -21,7 +21,6 @@ public class UserPersonalUpdateModel
 	public string? AboutInfo { get; set; }
 	public string? PEFriendCode { get; set; }
 	public string? PEUsername { get; set; }
-	[ValidDiscordUsername]
 	public string? DiscordUsername { get; set; }
 
 	public UserPersonalUpdateModel()
